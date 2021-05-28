@@ -40,15 +40,15 @@ nav a:hover{
 
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
-#link1,#link2,#link3:link{
+a.alink:link{
     color:#fc0808;
 }
 
-#link1,#link2,#link3:hover{
+a.alink:hover{
     color:#dea6a6;
 }
 
-#link1,#link2,#link3:visited{
+a.alink:visited{
     color:#9c9a9a;
 }
 
