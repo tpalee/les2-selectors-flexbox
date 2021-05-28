@@ -3,3 +3,57 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/* 2.1, CSS purple div */
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+/* 2.2, Courses>HTML... */
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* 2.3, Home Cursussen...*/
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-items > li{
+    padding-left: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* 2.4, Gebruikersnaam... */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2.5, three Yellow Lorem ipsum... */
+
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1 1 360px;
+}
